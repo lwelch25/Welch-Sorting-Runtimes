@@ -119,7 +119,31 @@ $ python3 runtimes.py --max_x=22
 ```
 and copy/paste the resulting table into this README file below this line.
 
-<!-- add the table here -->
+|`Formula`       |   `Timsort`   | `Merge_Sorted`| `Quick_Sorted`|
+| -------------- | ------------- | ------------- | ------------- |
+| `len(xs)=2**0` |   2.92e-06  |  1.95e-06  |  1.79e-06  |
+| `len(xs)=2**1` |   2.18e-06  |  7.57e-06  |  8.42e-06  |
+| `len(xs)=2**2` |   1.80e-06  |  1.12e-05  |  1.13e-05  |
+| `len(xs)=2**3` |   2.40e-06  |  2.27e-05  |  2.34e-05  |
+| `len(xs)=2**4` |   3.39e-06  |  4.75e-05  |  4.95e-05  |
+| `len(xs)=2**5` |   5.36e-06  |  1.01e-04  |  1.12e-04  |
+| `len(xs)=2**6` |   1.11e-05  |  2.25e-04  |  2.79e-04  |
+| `len(xs)=2**7` |   2.09e-05  |  4.97e-04  |  5.94e-04  |
+| `len(xs)=2**8` |   4.55e-05  |  1.10e-03  |  1.42e-03  |
+| `len(xs)=2**9` |   1.00e-04  |  2.41e-03  |  3.07e-03  |
+| `len(xs)=2**10` |   2.19e-04  |  5.40e-03  |  7.07e-03  |
+| `len(xs)=2**11` |   4.84e-04  |  1.15e-02  |  1.45e-02  |
+| `len(xs)=2**12` |   1.05e-03  |  2.52e-02  |  3.09e-02  |
+| `len(xs)=2**13` |   2.28e-03  |  5.41e-02  |  7.22e-02  |
+| `len(xs)=2**14` |   4.98e-03  |  1.02e-01  |  9.31e-02  |
+| `len(xs)=2**15` |   6.90e-03  |  1.61e-01  |  1.95e-01  |
+| `len(xs)=2**16` |   1.51e-02  |  3.41e-01  |  4.34e-01  |
+| `len(xs)=2**17` |   3.36e-02  |  7.41e-01  |  8.94e-01  |
+| `len(xs)=2**18` |   7.44e-02  |  1.57e+00  |  2.01e+00  |
+| `len(xs)=2**19` |   1.72e-01  |  3.37e+00  |  4.28e+00  |
+| `len(xs)=2**20` |   4.11e-01  |  7.31e+00  |  9.54e+00  |
+| `len(xs)=2**21` |   9.66e-01  |  1.55e+01  |  2.06e+01  |
+| `len(xs)=2**22` |   2.12e+00  |  3.24e+01  |  4.82e+01  |
 
 You should observe that python's built-in sort function is 10-100x faster than yours.
 All functions have the same wort-case asymptotic complexity (i.e. $\Theta(n \log n)$),
