@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 '''
-A simple program for measuring the runtime of sorting algorithms.
+A simple program for measuring the runtime of sorting algorithms..
 '''
 
 import timeit
