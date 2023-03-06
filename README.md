@@ -236,7 +236,32 @@ Follow the instructions in the comments to provide a proper definition of `xs`,
 then rerun the command above to generate a markdown table of runtimes.
 Copy/paste the table into the README file below this line.
 
-<!-- add the table here -->
+|`Formula`       |   `Timsort`   | `Merge_Sorted`| `Quick_Sorted`|
+| -------------- | ------------- | ------------- | ------------- |
+| `len(xs)=2**0` |   3.11e-06  |  2.00e-06  |  1.64e-06  |
+| `len(xs)=2**1` |   2.01e-06  |  7.36e-06  |  7.88e-06  |
+| `len(xs)=2**2` |   1.75e-06  |  1.18e-05  |  1.14e-05  |
+| `len(xs)=2**3` |   1.73e-06  |  2.11e-05  |  2.02e-05  |
+| `len(xs)=2**4` |   1.88e-06  |  4.28e-05  |  3.97e-05  |
+| `len(xs)=2**5` |   2.22e-06  |  9.27e-05  |  8.53e-05  |
+| `len(xs)=2**6` |   3.13e-06  |  1.99e-04  |  1.88e-04  |
+| `len(xs)=2**7` |   4.22e-06  |  4.48e-04  |  4.22e-04  |
+| `len(xs)=2**8` |   6.84e-06  |  9.38e-04  |  9.41e-04  |
+| `len(xs)=2**9` |   1.42e-05  |  2.01e-03  |  2.09e-03  |
+| `len(xs)=2**10` |   2.19e-05  |  4.41e-03  |  4.63e-03  |
+| `len(xs)=2**11` |   4.85e-05  |  9.37e-03  |  1.05e-02  |
+| `len(xs)=2**12` |   1.03e-04  |  2.00e-02  |  2.28e-02  |
+| `len(xs)=2**13` |   2.00e-04  |  4.28e-02  |  4.93e-02  |
+| `len(xs)=2**14` |   4.47e-04  |  9.03e-02  |  6.56e-02  |
+| `len(xs)=2**15` |   5.36e-04  |  1.19e-01  |  1.41e-01  |
+| `len(xs)=2**16` |   9.55e-04  |  2.37e-01  |  2.96e-01  |
+| `len(xs)=2**17` |   2.08e-03  |  5.08e-01  |  6.38e-01  |
+| `len(xs)=2**18` |   4.83e-03  |  1.24e+00  |  1.33e+00  |
+| `len(xs)=2**19` |   1.03e-02  |  2.37e+00  |  3.21e+00  |
+| `len(xs)=2**20` |   2.15e-02  |  4.99e+00  |  6.12e+00  |
+| `len(xs)=2**21` |   4.54e-02  |  1.13e+01  |  1.51e+01  |
+| `len(xs)=2**22` |   1.02e-01  |  2.54e+01  |  3.03e+01  |
+| `len(xs)=2**23` |   1.82e-01  |  4.53e+01  |  5.66e+01  |
 
 You should notice that the built-in `sorted` function ran much faster on this input,
 but your `merge_sorted` and `quick_sorted` functions have essentially the same runtimes.
